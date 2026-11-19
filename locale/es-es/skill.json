@@ -3,7 +3,7 @@
   "source": "https://github.com/emkay-voice/ovos-skill-intercom",
   "package_name": "ovos-skill-intercom",
   "pip_spec": "ovos-skill-intercom",
-  "license": "GPL-3.0-or-later",
+  "license": "Apache-2.0",
   "author": "emkay-voice",
   "name": "Intercomunicador",
   "description": "Intercomunicador LAN - envía un mensaje hablado a un dispositivo OVOS nombrado en la misma red local. Totalmente sin conexión, no requiere internet. Solo habla, nunca ejecuta comandos en el dispositivo receptor.",

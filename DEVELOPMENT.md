@@ -280,6 +280,6 @@ Alpha tags become pre-releases.
 
 ## Style / conventions
 
-- License: GPL-3.0-or-later
+- License: Apache-2.0
 - `locale/<lang-code>/` layout, `skill.json` inside each locale folder
 - 5 locales: en-us, da-dk, de-de, fr-fr, es-es (project baseline)

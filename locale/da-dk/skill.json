@@ -3,7 +3,7 @@
   "source": "https://github.com/emkay-voice/ovos-skill-intercom",
   "package_name": "ovos-skill-intercom",
   "pip_spec": "ovos-skill-intercom",
-  "license": "GPL-3.0-or-later",
+  "license": "Apache-2.0",
   "author": "emkay-voice",
   "name": "Intercom",
   "description": "LAN-intercom - send en talt besked til en navngiven OVOS-enhed på samme lokale netværk. Fuldt offline, ingen internetforbindelse nødvendig. Kun tale, udfører aldrig kommandoer på modtager-enheden.",
