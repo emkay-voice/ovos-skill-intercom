@@ -243,11 +243,10 @@ multicast traffic in CI, see
 
 ## Setup
 ```bash
-git clone https://github.com/andlo/ovos-skill-intercom.git
+git clone https://github.com/emkay-voice/ovos-skill-intercom.git
 cd ovos-skill-intercom
 python3 -m venv .venv && source .venv/bin/activate
-pip install -e .
-pip install -r requirements-test.txt
+pip install -e ".[test]"
 ```
 
 ## Running tests
@@ -262,8 +261,22 @@ that file's module docstring.
 
 ## Versioning
 
-`version.py` follows `VERSION_MAJOR.VERSION_MINOR.VERSION_BUILD[aVERSION_ALPHA]`,
-same convention as the rest of this project family.
+The version is `version` in `pyproject.toml`: `X.Y.Z`, or `X.Y.ZaN` for an
+alpha (Emkay follows OpenVoiceOS' alpha channel).
+
+## Releasing
+
+Releases are tag-triggered (`v*`), the same way as in the other Emkay repos:
+```bash
+# bump version in pyproject.toml
+git commit -am "vX.Y.ZaN"
+git tag vX.Y.ZaN
+git push && git push --tags
+```
+`.github/workflows/publish.yml` runs the tests and builds the wheel on every
+push; on a tag it publishes to PyPI (trusted publishing, environment `pypi`)
+and makes a GitHub release with the commits since the previous tag as notes.
+Alpha tags become pre-releases.
 
 ## Style / conventions
 

@@ -1,10 +1,10 @@
 {
-  "skill_id": "ovos-skill-intercom.andlo",
-  "source": "https://github.com/andlo/ovos-skill-intercom",
+  "skill_id": "ovos-skill-intercom.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-intercom",
   "package_name": "ovos-skill-intercom",
   "pip_spec": "ovos-skill-intercom",
   "license": "GPL-3.0-or-later",
-  "author": "andlo",
+  "author": "emkay-voice",
   "name": "Intercom",
   "description": "LAN intercom - send a spoken message to a named OVOS device on the same local network. Fully offline, no internet needed. Speak-only, never executes commands on the receiving device.",
   "examples": [
@@ -20,5 +20,5 @@
     "lan",
     "home"
   ],
-  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-intercom/main/icon.png"
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-intercom/main/icon.png"
 }

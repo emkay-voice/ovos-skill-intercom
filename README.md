@@ -5,7 +5,10 @@ spoken message to a named peer OVOS device on the same local
 network, with an optional spoken reply sent back. Fully offline,
 available in English, Danish, German, French, and Spanish.
 
-[![Tests](https://github.com/andlo/ovos-skill-intercom/actions/workflows/test.yml/badge.svg)](https://github.com/andlo/ovos-skill-intercom/actions/workflows/test.yml)
+It is part of [Emkay](https://github.com/emkay-voice/emkay), OpenVoiceOS in
+the browser, and works on any [OpenVoiceOS](https://openvoiceos.org).
+
+[![Build](https://github.com/emkay-voice/ovos-skill-intercom/actions/workflows/publish.yml/badge.svg)](https://github.com/emkay-voice/ovos-skill-intercom/actions/workflows/publish.yml)
 [![PyPI version](https://img.shields.io/pypi/v/ovos-skill-intercom.svg)](https://pypi.org/project/ovos-skill-intercom/)
 
 - [The one non-negotiable boundary](#the-one-non-negotiable-boundary)
