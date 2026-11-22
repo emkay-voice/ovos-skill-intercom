@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-skill-intercom"
-version = "0.2.0a1"
+version = "0.2.0a2"
 description = "LAN intercom - send a spoken message to a named OVOS device on the same local network. Fully offline, no internet needed. Speak-only, never executes commands on the receiving device."
 readme = "README.md"
 license = {text = "Apache-2.0"}
@@ -43,4 +43,4 @@ packages = ["ovos_skill_intercom"]
 ovos_skill_intercom = ""
 
 [tool.setuptools.package-data]
-ovos_skill_intercom = ["locale/**/*", "*.png"]
+ovos_skill_intercom = ["locale/**/*", "*.png", "settingsmeta.json"]
