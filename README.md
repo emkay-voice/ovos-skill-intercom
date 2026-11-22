@@ -46,7 +46,8 @@ devices with matching codes can message each other.
 
 The name and code can also be set in the skill's settings
 (`intercom_name`, `intercom_code` in its `settings.json`, or a
-settings UI). A new name is advertised as soon as the settings are
+settings UI: `settingsmeta.json` gives them a form, as on the Skills page of
+the [control panel](https://github.com/OpenVoiceOS/ovos-control-panel)). A new name is advertised as soon as the settings are
 saved - no restart needed.
 
 ## Usage

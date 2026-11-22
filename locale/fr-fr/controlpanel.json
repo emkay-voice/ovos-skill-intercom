@@ -1,0 +1,7 @@
+{
+ "settings.section.Intercom": "Interphone",
+ "settings.intercom_name": "Nom de cet appareil",
+ "settings.intercom_name.hint": "Comment les autres appareils l'appellent, par exemple cuisine.",
+ "settings.intercom_code": "Code du foyer",
+ "settings.intercom_code.hint": "Les mêmes chiffres sur chaque appareil qui doit parler aux autres."
+}

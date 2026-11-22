@@ -1,0 +1,23 @@
+{
+ "skillMetadata": {
+  "sections": [
+   {
+    "name": "Intercom",
+    "fields": [
+     {
+      "name": "intercom_name",
+      "type": "text",
+      "label": "This device's name",
+      "value": ""
+     },
+     {
+      "name": "intercom_code",
+      "type": "text",
+      "label": "Household code",
+      "value": ""
+     }
+    ]
+   }
+  ]
+ }
+}

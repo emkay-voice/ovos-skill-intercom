@@ -1,0 +1,7 @@
+{
+ "settings.section.Intercom": "Gegensprechanlage",
+ "settings.intercom_name": "Name dieses Geräts",
+ "settings.intercom_name.hint": "Wie die anderen Geräte es nennen, z. B. Küche.",
+ "settings.intercom_code": "Haushaltscode",
+ "settings.intercom_code.hint": "Dieselben Ziffern auf jedem Gerät, das mit den anderen sprechen soll."
+}

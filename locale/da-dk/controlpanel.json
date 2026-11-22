@@ -1,0 +1,7 @@
+{
+ "settings.section.Intercom": "Samtaleanlæg",
+ "settings.intercom_name": "Denne enheds navn",
+ "settings.intercom_name.hint": "Det, de andre enheder kalder den, fx køkken.",
+ "settings.intercom_code": "Husstandens kode",
+ "settings.intercom_code.hint": "De samme cifre på hver enhed, der skal tale med de andre."
+}
