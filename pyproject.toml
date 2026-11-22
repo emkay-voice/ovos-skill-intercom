@@ -9,6 +9,7 @@ description = "LAN intercom - send a spoken message to a named OVOS device on th
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "emkay-voice"}]
+maintainers = [{name = "Andreas Lorensen"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "skill", "voice", "assistant", "intercom", "multi-device", "messaging", "lan", "emkay"]
 classifiers = [
